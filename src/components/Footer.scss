@@ -1,0 +1,28 @@
+.footer {
+	width: 100%;
+	background: pink;
+	.footer-inner {
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 50px 0;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		.sns-wrap {
+			display: flex;
+			margin-bottom: 20px;
+			a {
+				padding: 10px;
+			}
+		}
+		.add-wrap {
+			address {
+				font-style: normal;
+			}
+		}
+	}
+}
